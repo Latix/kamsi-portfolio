@@ -16,7 +16,7 @@ const scrollTab = useRef();
 CustomHook(scrollTab, divs);
 
   return (
-    <section className='contacts' ref={scrollTab}>
+    <section id="Contacts" className='contacts' ref={scrollTab}>
        <div className="title" ref={(el) => el && divs.current.push(el)}>
         Contacts
        </div>

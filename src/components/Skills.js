@@ -45,8 +45,8 @@ const [listSkills] = useState([
 
 ]);
   return (
-    <section className='skills' ref={scrollTab}>
-       <div id="skills" className="title" ref={(el) => el && divs.current.push(el)}>
+    <section id="Skills" className='skills' ref={scrollTab}>
+       <div className="title" ref={(el) => el && divs.current.push(el)}>
         Skills
        </div>
        <div className="des" ref={(el) => el && divs.current.push(el)}>

@@ -5,7 +5,7 @@ const scrollTab = useRef();
 CustomHook(scrollTab);
 
 return (
-    <section ref={scrollTab} className='home'>
+    <section id="Home" ref={scrollTab} className='home'>
         <div className="content">
             <div className="name">
                 MY NAME IS <span>KAMSI KODI</span>

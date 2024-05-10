@@ -4,7 +4,7 @@ import { useDispatch } from 'react-redux';
 import { changeTabActive } from '../redux/actions';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link } from 'react-scroll';
 
 const NavBar = ({activeTab}) => {
     const dispatch = useDispatch();
@@ -25,9 +25,10 @@ const NavBar = ({activeTab}) => {
             <nav className={statusNav}>
                 {
                 linkNav.map(value => (
-                    <Link key={value} to="skills" spy={true} smooth={true} duration={500}>
+                    
+                    <Link key={value} to={value} spy={true} smooth={true} duration={500}>
                     <span 
-                    className={activeTab === value ? 'active': ''}
+                    className={activeTab === value ? `active`: value}
                     onClick={()=>changeTab(value)}>{value}</span>
                     </Link>
                 ))
