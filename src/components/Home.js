@@ -12,7 +12,7 @@ return (
             </div>
             <div className="des">
                 {/* 30 */}
-                Full Stack Engineer with 6 years of experience developing and maintaining highly scalable applications in the Fintech and E-commerce industries. Skilled in strategic planning and utilising best practices and industry standards to enhance user experiences in web applications leading to a 50% increase in customer satisfaction. 
+                Full Stack Engineer with 6 years of experience developing and maintaining highly scalable applications in the Fintech and E-commerce industries. Skilled in strategic planning and utilising best practices and industry standards to enhance user experiences in web applications leading to an increase in customer satisfaction. 
             </div>
             
             <a href="https://drive.google.com/file/d/1xhgbfU6TREI2ClfqtkfKstr6BMh3E1-3/view?usp=sharing" target="_blank" rel="noopener noreferrer" className='animation active '>
