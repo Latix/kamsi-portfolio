@@ -131,6 +131,11 @@ section.home{
             width: max-content;
             padding: 20px 30px;
             border-radius: 40px;
+            transition: 500ms;
+        }
+        & a:hover {
+            color: #e945e3;
+            border: 1px solid #e945e3;
         }
     }
     & .avatar{
