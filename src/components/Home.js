@@ -8,14 +8,14 @@ return (
     <section ref={scrollTab} className='home'>
         <div className="content">
             <div className="name">
-                MY NAME IS <span>LUNDEV</span>
+                MY NAME IS <span>KAMSI KODI</span>
             </div>
             <div className="des">
                 {/* 30 */}
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores officiis beatae repellendus rem ullam, ipsam nemo dolorem dolorum illo laborum. Ea sed dolor ab qui, doloremque accusantium esse blanditiis possimus!
+                Full Stack Engineer with 6 years of experience developing and maintaining highly scalable applications in the Fintech and E-commerce industries. Skilled in strategic planning and utilising best practices and industry standards to enhance user experiences in web applications leading to a 50% increase in customer satisfaction. 
             </div>
             
-            <a href="/democv.pdf" target="_blank" rel="noopener noreferrer" className='animation active '>
+            <a href="https://drive.google.com/file/d/1xhgbfU6TREI2ClfqtkfKstr6BMh3E1-3/view?usp=sharing" target="_blank" rel="noopener noreferrer" className='animation active '>
                 Download My CV
             </a>
         </div>
