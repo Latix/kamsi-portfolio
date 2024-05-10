@@ -54,7 +54,7 @@ const [listSkills] = useState([
             <div className={'item '} key={key} ref={(el) => el && divs.current.push(el)}>
               <FontAwesomeIcon icon={value.icon} />
               <h3>{ value.name }</h3>
-              <div className="des">{value.des}</div>
+              {/* <div className="des">{value.des}</div> */}
             </div>
           ))
         }

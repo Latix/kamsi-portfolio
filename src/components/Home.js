@@ -21,13 +21,13 @@ return (
         </div>
         <div className="avatar">
             <div className="card">
-                <img src="/avatar.jpg" alt="" />
-                <div className="info">
+                <img src="/avatar1.png" alt="Kamsi Kodi" />
+                {/* <div className="info">
                     <div>Developer</div>
                     <div>VietNamese</div>
                     <div>03/12</div>
                     <div>Male</div>
-                </div>
+                </div> */}
             </div>
         </div>
     </section>

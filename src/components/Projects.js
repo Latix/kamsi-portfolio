@@ -6,25 +6,39 @@ import CustomHook from './CustomHook';
 function Projects() {
 const [listProjects] = useState([
   {
-    name: 'Project Real-time chating in website',
-    des: 'Eu voluptate sit do labore consectetur in ad esse qui laborum ad eiusmod. Esse ea velit culpa exercitation anim enim reprehenderit. Fugiat nostrud non dolore aliquip quis in ea amet duis.',
-    mission: 'Back-end Developer, system analysis and design',
-    language: 'HTML5, CSS3, React JS, SockerIO,...',
-    images: '/project1.PNG'
+    name: 'SIMROP (SIM Registration Operations Portal)',
+    des: 'SIMROP is a management portal that allows MTN and their outlets to easily manage all SIM registration activities of agents and dealers in one place.An extension of BioSmart, the portal helps you monitor and control agents, track devices & kits, and manage customer information from anywhere.',
+    mission: 'Software Engineer, Automation Tester',
+    language: 'HTML5, CSS3, Selenium, Java, TDD, Jenkins',
+    images: '/simrop.png'
   },
   {
-    name: 'Project Real-time chating in website',
-    des: 'Eu voluptate sit do labore consectetur in ad esse qui laborum ad eiusmod. Esse ea velit culpa exercitation anim enim reprehenderit. Fugiat nostrud non dolore aliquip quis in ea amet duis.',
-    mission: 'Back-end Developer, system analysis and design',
-    language: 'HTML5, CSS3, React JS, SockerIO,...',
-    images: '/project2.PNG'
+    name: 'Woven Finance',
+    des: 'Woven Finance simplifies day-to-day business transactions, making digital payments and reconciliations super easy for your business.',
+    mission: 'Software Engineer',
+    language: 'HTML5, CSS3, Javascript, ReactJS, NodeJS, CI/CD, VueJS',
+    images: '/woven.png'
   },
   {
-    name: 'Project Real-time chating in website',
-    des: 'Eu voluptate sit do labore consectetur in ad esse qui laborum ad eiusmod. Esse ea velit culpa exercitation anim enim reprehenderit. Fugiat nostrud non dolore aliquip quis in ea amet duis.',
-    mission: 'Back-end Developer, system analysis and design',
-    language: 'HTML5, CSS3, React JS, SockerIO,...',
-    images: '/project2.PNG'
+    name: 'Workwise Visitor Management',
+    des: 'Whether you’re managing a small office or a large corporate campus, wVisitor has you covered. Say goodbye to the hassle of manual visitor logs and hello to a smarter, more streamlined way of managing visitors with wVisitor.',
+    mission: 'Frontend Developer',
+    language: 'HTML5, CSS3, Javascript, React JS, Laravel, PHP, CI/CD',
+    images: '/workwise.png'
+  },
+  {
+    name: 'Netflix Clone',
+    des: 'This is a simple netflix clone in react',
+    mission: 'Frontend-developer',
+    language: 'HTML5, CSS3, ReactJS',
+    images: '/netflix.png'
+  },
+  {
+    name: 'Gzero',
+    des: 'GZERO Media is a company dedicated to providing the public with intelligent and engaging coverage of global affairs. It was created in 2017 as a subsidiary of Eurasia Group, the world\'s leading political risk analysis firm.',
+    mission: 'Frontend-developer',
+    language: 'HTML5, CSS3, VanillaJS, API, Jinja',
+    images: '/gzero.png'
   },
 
 ]);
@@ -34,11 +48,11 @@ CustomHook(scrollTab, divs);
   return (
     <section className='projects' ref={scrollTab}>
        <div className="title" ref={(el) => el && divs.current.push(el)}>
-        This is my Projects
+        Projects
        </div>
        <div className="des" ref={(el) => el && divs.current.push(el)}>
         {/* 20 */}
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam perspiciatis quae veniam amet nesciunt voluptatibus quis consectetur consequatur quisquam harum.
+        {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam perspiciatis quae veniam amet nesciunt voluptatibus quis consectetur consequatur quisquam harum. */}
        </div>
        <div className="list">
         {

@@ -206,6 +206,7 @@ section.skills{
             padding: 20px;
             border-radius: 20px;
             background-color: #01082488;
+            text-align: center;
             & svg{
                 font-size: 30px;
                 background-color: #eee2;
