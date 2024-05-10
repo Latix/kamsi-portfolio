@@ -51,7 +51,7 @@ const [listSkills] = useState([
        </div>
        <div className="des" ref={(el) => el && divs.current.push(el)}>
         {/* 20 */}
-        Full Stack developer willing to explore new TECH STACK
+        Full Stack developer willing to explore a new TECH STACK
        </div>
        <div className="list">
         {

@@ -25,7 +25,7 @@ const NavBar = ({activeTab}) => {
             <nav className={statusNav}>
                 {
                 linkNav.map(value => (
-                    <Link key={value} to="section2" spy={true} smooth={true} duration={500}>
+                    <Link key={value} to="skills" spy={true} smooth={true} duration={500}>
                     <span 
                     className={activeTab === value ? 'active': ''}
                     onClick={()=>changeTab(value)}>{value}</span>
