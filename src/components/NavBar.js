@@ -14,8 +14,8 @@ const NavBar = ({activeTab}) => {
         changeStatusNav(statusNav === null ? 'active' : null);
     }
     const changeTab = (value) => {
-        dispatch(changeTabActive(value));
-        toggleNav();
+        //dispatch(changeTabActive(value));
+        //toggleNav();
     }
     return (
         <header>
