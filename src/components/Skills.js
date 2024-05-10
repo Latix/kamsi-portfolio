@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react' 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact, faHtml5, faCss3, faJs, faVuejs, faLaravel } from '@fortawesome/free-brands-svg-icons';
+import { faReact, faHtml5, faCss3, faJs, faVuejs, faLaravel, faNode } from '@fortawesome/free-brands-svg-icons';
 import CustomHook from './CustomHook';
 
 function Skills() {
@@ -36,12 +36,17 @@ const [listSkills] = useState([
     name: 'Laravel',
     des: 'Ullamco incididunt adipisicing laboris ullamco ipsum quis nulla non. Non et irure amet in sint duis Lorem est eiusmod nisi. Aute dolor eiusmod esse et cupidatat ex minim do reprehenderit ut aute. In commodo do consectetur qui occaecat cupidatat sint ullamco dolor tempor ullamco elit.',
     icon: faLaravel
+  },
+  {
+    name: 'Node',
+    des: 'Ullamco incididunt adipisicing laboris ullamco ipsum quis nulla non. Non et irure amet in sint duis Lorem est eiusmod nisi. Aute dolor eiusmod esse et cupidatat ex minim do reprehenderit ut aute. In commodo do consectetur qui occaecat cupidatat sint ullamco dolor tempor ullamco elit.',
+    icon: faNode
   }
 
 ]);
   return (
     <section className='skills' ref={scrollTab}>
-       <div className="title" ref={(el) => el && divs.current.push(el)}>
+       <div id="skills" className="title" ref={(el) => el && divs.current.push(el)}>
         Skills
        </div>
        <div className="des" ref={(el) => el && divs.current.push(el)}>
