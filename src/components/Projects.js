@@ -45,7 +45,6 @@ const [listProjects] = useState([
     images: '/gzero.png',
     link: 'https://www.gzeromedia.com/'
   },
-
 ]);
 const divs = useRef([]);
 const scrollTab = useRef();
@@ -64,7 +63,7 @@ CustomHook(scrollTab, divs);
           listProjects.map((value, key) => (
             <div className='item' key={key} ref={(el) => el && divs.current.push(el)}>
               <div className="images">
-                <a href={value.link} target="_blank">
+                <a href={value.link} target="_blank" rel="noreferrer">
                   <img src={value.images} alt="" />
                 </a>
               </div>
