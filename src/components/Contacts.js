@@ -1,26 +1,22 @@
-import React, { useState, useRef } from 'react' 
+import React, { useState, useRef } from 'react'
 import CustomHook from './CustomHook';
 
 function Contacts() {
-const [listContacts] = useState([
-  {
-    title: 'Phone Number',
-    value: '+2349059590439'
-  },{
+  const [listContacts] = useState([{
     title: 'Email',
     value: 'kamsikodi@gmail.com'
   }
-])
-const divs = useRef([]);
-const scrollTab = useRef();
-CustomHook(scrollTab, divs);
+  ])
+  const divs = useRef([]);
+  const scrollTab = useRef();
+  CustomHook(scrollTab, divs);
 
   return (
     <section id="Contacts" className='contacts' ref={scrollTab}>
-       <div className="title" ref={(el) => el && divs.current.push(el)}>
+      <div className="title" ref={(el) => el && divs.current.push(el)}>
         Contacts
-       </div>
-       <div className="list"  ref={(el) => el && divs.current.push(el)}>
+      </div>
+      <div className="list" ref={(el) => el && divs.current.push(el)}>
         {
           listContacts.map((value, key) => (
             <div className='item' key={key}>
@@ -29,7 +25,7 @@ CustomHook(scrollTab, divs);
             </div>
           ))
         }
-       </div>
+      </div>
     </section>
   )
 }
