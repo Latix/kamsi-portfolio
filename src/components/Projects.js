@@ -9,15 +9,15 @@ function Projects() {
       name: 'Infiuss Probe',
       des: 'An AI-driven platform revolutionising clinical research by connecting researchers, patients, and healthcare facilities. With a lean team of under 50 employees, Infiuss empowers researchers with cutting-edge tools for study planning, participant recruitment, and data management, driving innovation and expanding access to vital healthcare insights across the continent.',
       role: 'AI Fullstack Engineer',
-      language: 'Javascript, Python, Nuxt.JS, Next.JS, MySQL, Laravel, Node',
+      language: 'Javascript, Python, Nuxt, Next, MySQL, Laravel, Node, AWS',
       images: '/probe.png',
       link: 'https://infiuss.com'
     },
     {
       name: 'Woven Finance',
       des: 'Woven Finance simplifies day-to-day business transactions, making digital payments and reconciliations super easy for your business.',
-      role: 'Software Engineer',
-      language: 'HTML5, CSS3, Javascript, ReactJS, NodeJS, CI/CD, VueJS',
+      role: 'Fullstack Engineer',
+      language: 'HTML5, CSS3, Javascript, ReactJS, NodeJS, CI/CD, VueJS, MySQL, AWS',
       images: '/woven.png',
       link: 'https://woven.finance/'
     },
@@ -32,8 +32,8 @@ function Projects() {
     {
       name: 'Workwise Visitor Management',
       des: 'Whether you’re managing a small office or a large corporate campus, wVisitor has you covered. Say goodbye to the hassle of manual visitor logs and hello to a smarter, more streamlined way of managing visitors with wVisitor.',
-      role: 'Frontend Developer',
-      language: 'HTML5, CSS3, Javascript, React JS, Laravel, PHP, CI/CD',
+      role: 'Fullstack Engineer',
+      language: 'HTML5, CSS3, Javascript, React JS, Laravel, PHP, CI/CD, AWS',
       images: '/workwise.png',
       link: 'https://workwise.ng/'
     },
@@ -48,8 +48,8 @@ function Projects() {
     {
       name: 'Gzero',
       des: 'GZERO Media is a company dedicated to providing the public with intelligent and engaging coverage of global affairs. It was created in 2017 as a subsidiary of Eurasia Group, the world\'s leading political risk analysis firm.',
-      role: 'Frontend-developer',
-      language: 'HTML5, CSS3, VanillaJS, API, Jinja',
+      role: 'Frontend Engineer',
+      language: 'HTML5, CSS3, VanillaJS, REST API, Jinja',
       images: '/gzero.png',
       link: 'https://www.gzeromedia.com/'
     },
