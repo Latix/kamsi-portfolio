@@ -419,7 +419,8 @@ section.contacts {
             }
 
             & .avatar {
-                grid-row-start: 1;
+                /* grid-row-start: 1; */
+                display: none;
             }
         }
 
