@@ -380,6 +380,24 @@ section.contacts {
     transform: translateY(0);
 }
 
+svg {
+    overflow: visible;
+}
+
+#pipeline {
+    transform-origin: center;
+    transform-box: fill-box;
+    animation: rotatePipeline 10s linear infinite;
+}
+
+@keyframes rotatePipeline {
+    from {
+      transform: rotate(15deg);
+    }
+    to {
+      transform: rotate(375deg);
+    }
+}
 
 @keyframes shine {
     to {
