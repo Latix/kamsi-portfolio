@@ -387,8 +387,9 @@ section.contacts {
     }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
     section.home {
+        grid-template-columns: 1fr;
         & .content {
             & .name {
                 font-size: 4em;
@@ -396,6 +397,7 @@ section.contacts {
         }
 
         & .avatar {
+            display: none;
             & img {
                 max-height: 500px;
             }
