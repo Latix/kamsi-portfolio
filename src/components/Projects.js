@@ -6,6 +6,14 @@ import CustomHook from './CustomHook';
 function Projects() {
   const [listProjects] = useState([
     {
+      name: 'bckrs.ai',
+      des: 'An AI-powered intelligence platform transforming venture capital and private equity operations by connecting Venture firms, LPs, and startups through advanced data analytics. With sophisticated automation capabilities, bckrs empowers investors with cutting-edge tools for portfolio analysis, firm scoring, document processing, and market intelligence, driving data-driven investment decisions and expanding access to comprehensive venture capital insights.',
+      role: 'AI Engineer',
+      language: 'Python, PostgreSQL, Flask, LangChain, Supabase, CI/CD, SQL, Automation, RAG, Generative AI, Redis, Playwright, OpenAI, Anthropic Claude, Perplexity AI.',
+      images: '/bckrs.png',
+      link: 'https://www.bckrs.ai/'
+    },
+    {
       name: 'Infiuss Probe',
       des: 'An AI-driven platform revolutionising clinical research by connecting researchers, patients, and healthcare facilities. With a lean team of under 50 employees, Infiuss empowers researchers with cutting-edge tools for study planning, participant recruitment, and data management, driving innovation and expanding access to vital healthcare insights across the continent.',
       role: 'AI Fullstack Engineer',
