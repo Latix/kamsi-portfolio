@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { Link } from 'react-scroll';
 import { motion, AnimatePresence } from 'framer-motion';
+import Logo from './Logo';
 
 const NavBar = ({activeTab}) => {
     const dispatch = useDispatch();
@@ -85,16 +86,18 @@ const NavBar = ({activeTab}) => {
                 animate="visible"
             >
                 <div className="navbar-container">
-                    <motion.div 
-                        className="logo"
-                        whileHover={{ scale: 1.05 }}
-                        whileTap={{ scale: 0.95 }}
-                    >
-                        <img src="/logo.png" alt="Logo" />
-                        <span className="logo-text">
-                            <span className="gradient-text">Kamsi</span>
-                        </span>
-                    </motion.div>
+                    <Link to="Home" spy={true} smooth={true} duration={500}>
+                        <motion.div 
+                            className="logo"
+                            whileHover={{ scale: 1.05 }}
+                            whileTap={{ scale: 0.95 }}
+                        >
+                            <Logo size={45} />
+                            <span className="logo-text">
+                                <span className="gradient-text">Kamsi</span>
+                            </span>
+                        </motion.div>
+                    </Link>
 
                     <nav className="desktop-nav">
                         {linkNav.map((value, index) => (
@@ -161,7 +164,7 @@ const NavBar = ({activeTab}) => {
                         >
                             <div className="mobile-menu-header">
                                 <div className="logo">
-                                    <img src="/logo.png" alt="Logo" />
+                                    <Logo size={40} />
                                     <span className="logo-text gradient-text">Kamsi</span>
                                 </div>
                                 <button className="close-btn" onClick={toggleNav}>

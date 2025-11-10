@@ -151,12 +151,11 @@ body {
   gap: 12px;
   cursor: pointer;
   z-index: 100;
+  transition: transform 0.3s ease;
 }
 
-.logo img {
-  width: 40px;
-  height: 40px;
-  object-fit: contain;
+.logo svg {
+  flex-shrink: 0;
 }
 
 .logo-text {
