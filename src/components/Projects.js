@@ -14,7 +14,7 @@ function Projects() {
       link: 'https://www.bckrs.ai/'
     },
     {
-      name: 'Infiuss Probe',
+      name: 'Infiuss Health',
       des: 'An AI-driven platform revolutionising clinical research by connecting researchers, patients, and healthcare facilities. With a lean team of under 50 employees, Infiuss empowers researchers with cutting-edge tools for study planning, participant recruitment, and data management, driving innovation and expanding access to vital healthcare insights across the continent.',
       role: 'AI Fullstack Engineer',
       language: 'PostgreSQL, LangChain, GraphQL, Python, HTML, CSS, Jira, Javascript, MYSQL, REST, AWS, Nuxt.JS, SEO, Laravel, Node.JS, Machine Learning, Automation, RAG',
