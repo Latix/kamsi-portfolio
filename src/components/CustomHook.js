@@ -27,7 +27,12 @@ useEffect(() => {
           });
         }
           window.addEventListener('scroll', handlScroll);
+          
+          return () => {
+            window.removeEventListener('scroll', handlScroll);
+          };
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
 }, [activeTab])
 }
 
