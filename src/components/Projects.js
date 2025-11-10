@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPersonCircleQuestion, faEarthAmericas, faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 import CustomHook from './CustomHook';
 import { motion } from 'framer-motion';
+import OptimizedImage from './OptimizedImage';
 
 function Projects() {
   const [listProjects] = useState([
@@ -138,7 +139,12 @@ function Projects() {
             
             <div className="project-image-container">
               <a href={value.link} target="_blank" rel="noopener noreferrer">
-                <img src={value.images} alt={value.name} className="project-image" />
+                <OptimizedImage 
+                  src={value.images} 
+                  alt={value.name} 
+                  className="project-image"
+                  style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                />
                 <div className="image-overlay">
                   <FontAwesomeIcon icon={faArrowUpRightFromSquare} className="overlay-icon" />
                   <span>View Live Project</span>

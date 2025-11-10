@@ -808,6 +808,19 @@ body {
   height: 100%;
   object-fit: cover;
   transition: transform var(--transition-slow);
+  will-change: transform;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.optimized-image {
+  will-change: opacity, transform;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.optimized-image.loaded {
+  will-change: auto;
 }
 
 .project-card:hover .project-image {
