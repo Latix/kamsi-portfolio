@@ -53,15 +53,6 @@ function Projects() {
       tags: ['SaaS', 'Enterprise', 'Full Stack']
     },
     {
-      name: 'Netflix Clone',
-      des: 'This is a simple netflix clone in react',
-      role: 'Frontend-developer',
-      language: 'HTML5, CSS3, ReactJS',
-      images: '/netflix.png',
-      link: 'https://silly-joliot-0ac098.netlify.app/',
-      tags: ['React', 'Frontend', 'UI/UX']
-    },
-    {
       name: 'Gzero',
       des: 'GZERO Media is a company dedicated to providing the public with intelligent and engaging coverage of global affairs. It was created in 2017 as a subsidiary of Eurasia Group, the world\'s leading political risk analysis firm.',
       role: 'Platform Engineer',
