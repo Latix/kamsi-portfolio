@@ -80,7 +80,7 @@ function Home() {
                     variants={itemVariants}
                 >
                     <a 
-                        href="https://drive.google.com/file/d/1yMYqdhsc95HN-5I8zyS6Bzuike1GLjg3/view?usp=sharing" 
+                        href="https://drive.google.com/file/d/1IGuWD6hh3ZMmlkeKU5h45_4rFhANVDVL/view?usp=sharing" 
                         target="_blank" 
                         rel="noopener noreferrer" 
                         className='btn-primary'
