@@ -37,7 +37,7 @@ function StarField() {
       <Points ref={ref} positions={positions} stride={3} frustumCulled={false}>
         <PointMaterial
           transparent
-          color="#a5b4fc"
+          color="#6ee7b7"
           size={0.015}
           sizeAttenuation={true}
           depthWrite={false}
@@ -71,7 +71,7 @@ function FloatingGeometry() {
       <mesh ref={meshRef} position={[3, 0, -2]}>
         <torusKnotGeometry args={[0.6, 0.2, 100, 16]} />
         <meshStandardMaterial 
-          color="#6366f1" 
+          color="#10b981" 
           wireframe={false}
           transparent
           opacity={0.1}
@@ -82,7 +82,7 @@ function FloatingGeometry() {
       <mesh ref={wireframeRef} position={[-3, -1, -3]}>
         <icosahedronGeometry args={[0.8, 1]} />
         <meshStandardMaterial 
-          color="#ec4899" 
+          color="#34d399" 
           wireframe={true}
           transparent
           opacity={0.3}
@@ -101,7 +101,7 @@ function ThreeBackground() {
       width: '100%',
       height: '100%',
       zIndex: -1,
-      background: 'linear-gradient(135deg, #0a0e27 0%, #1a0b2e 50%, #16052e 100%)'
+      background: 'linear-gradient(135deg, #0a0f0a 0%, #0d1f12 50%, #0a1810 100%)'
     }}>
       <Canvas
         camera={{ position: [0, 0, 5], fov: 60 }}
@@ -113,8 +113,8 @@ function ThreeBackground() {
         dpr={[1, 2]} // Limit pixel ratio for performance
       >
         <ambientLight intensity={0.5} />
-        <pointLight position={[10, 10, 10]} intensity={1} color="#6366f1" />
-        <pointLight position={[-10, -10, -10]} intensity={0.5} color="#ec4899" />
+        <pointLight position={[10, 10, 10]} intensity={1} color="#10b981" />
+        <pointLight position={[-10, -10, -10]} intensity={0.5} color="#34d399" />
         <StarField />
         <FloatingGeometry />
       </Canvas>

@@ -70,7 +70,7 @@ function OptimizedImage({
             left: 0,
             width: '100%',
             height: '100%',
-            background: 'linear-gradient(135deg, rgba(10, 14, 39, 0.8) 0%, rgba(26, 11, 46, 0.8) 100%)',
+            background: 'linear-gradient(135deg, rgba(10, 15, 10, 0.8) 0%, rgba(6, 95, 70, 0.2) 100%)',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
@@ -84,8 +84,8 @@ function OptimizedImage({
             style={{
               width: '40px',
               height: '40px',
-              border: '3px solid rgba(102, 126, 234, 0.3)',
-              borderTopColor: '#667eea',
+              border: '3px solid rgba(16, 185, 129, 0.3)',
+              borderTopColor: '#10b981',
               borderRadius: '50%',
             }}
           />
@@ -128,7 +128,7 @@ function OptimizedImage({
             left: 0,
             width: '100%',
             height: '100%',
-            background: 'linear-gradient(135deg, rgba(10, 14, 39, 0.9) 0%, rgba(26, 11, 46, 0.9) 100%)',
+            background: 'linear-gradient(135deg, rgba(10, 15, 10, 0.9) 0%, rgba(6, 95, 70, 0.3) 100%)',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',

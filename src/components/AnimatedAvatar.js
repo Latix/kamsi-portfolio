@@ -72,9 +72,9 @@ function AnimatedAvatar() {
             />
             <defs>
               <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
-                <stop offset="0%" stopColor="#667eea" />
-                <stop offset="50%" stopColor="#764ba2" />
-                <stop offset="100%" stopColor="#f093fb" />
+                <stop offset="0%" stopColor="#10b981" />
+                <stop offset="50%" stopColor="#047857" />
+                <stop offset="100%" stopColor="#34d399" />
               </linearGradient>
             </defs>
           </svg>
@@ -102,8 +102,8 @@ function AnimatedAvatar() {
             />
             <defs>
               <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="100%">
-                <stop offset="0%" stopColor="#4facfe" />
-                <stop offset="100%" stopColor="#00f2fe" />
+                <stop offset="0%" stopColor="#34d399" />
+                <stop offset="100%" stopColor="#10b981" />
               </linearGradient>
             </defs>
           </svg>
@@ -125,7 +125,7 @@ function AnimatedAvatar() {
             {/* Code brackets */}
             <motion.path
               d="M 60 50 L 40 100 L 60 150"
-              stroke="#667eea"
+              stroke="#10b981"
               strokeWidth="6"
               strokeLinecap="round"
               fill="none"
@@ -135,7 +135,7 @@ function AnimatedAvatar() {
             />
             <motion.path
               d="M 140 50 L 160 100 L 140 150"
-              stroke="#667eea"
+              stroke="#10b981"
               strokeWidth="6"
               strokeLinecap="round"
               fill="none"
@@ -150,7 +150,7 @@ function AnimatedAvatar() {
               y1="60"
               x2="90"
               y2="140"
-              stroke="#f093fb"
+              stroke="#34d399"
               strokeWidth="6"
               strokeLinecap="round"
               initial={{ pathLength: 0, opacity: 0 }}
@@ -163,7 +163,7 @@ function AnimatedAvatar() {
               cx="70"
               cy="80"
               r="3"
-              fill="#4facfe"
+              fill="#34d399"
               initial={{ scale: 0 }}
               animate={{ scale: [0, 1, 0] }}
               transition={{ duration: 2, repeat: Infinity, delay: 1 }}
@@ -172,7 +172,7 @@ function AnimatedAvatar() {
               cx="130"
               cy="120"
               r="3"
-              fill="#4facfe"
+              fill="#34d399"
               initial={{ scale: 0 }}
               animate={{ scale: [0, 1, 0] }}
               transition={{ duration: 2, repeat: Infinity, delay: 1.5 }}
@@ -181,7 +181,7 @@ function AnimatedAvatar() {
               cx="85"
               cy="130"
               r="2.5"
-              fill="#764ba2"
+              fill="#047857"
               initial={{ scale: 0 }}
               animate={{ scale: [0, 1, 0] }}
               transition={{ duration: 2, repeat: Infinity, delay: 2 }}
@@ -190,7 +190,7 @@ function AnimatedAvatar() {
               cx="115"
               cy="70"
               r="2.5"
-              fill="#764ba2"
+              fill="#047857"
               initial={{ scale: 0 }}
               animate={{ scale: [0, 1, 0] }}
               transition={{ duration: 2, repeat: Infinity, delay: 2.5 }}
@@ -217,8 +217,8 @@ function AnimatedAvatar() {
             </text>
             <defs>
               <linearGradient id="techGrad1">
-                <stop offset="0%" stopColor="#667eea" />
-                <stop offset="100%" stopColor="#764ba2" />
+                <stop offset="0%" stopColor="#10b981" />
+                <stop offset="100%" stopColor="#047857" />
               </linearGradient>
             </defs>
           </svg>
@@ -244,8 +244,8 @@ function AnimatedAvatar() {
             />
             <defs>
               <linearGradient id="techGrad2">
-                <stop offset="0%" stopColor="#4facfe" />
-                <stop offset="100%" stopColor="#00f2fe" />
+                <stop offset="0%" stopColor="#34d399" />
+                <stop offset="100%" stopColor="#10b981" />
               </linearGradient>
             </defs>
           </svg>
@@ -273,8 +273,8 @@ function AnimatedAvatar() {
             />
             <defs>
               <linearGradient id="techGrad3">
-                <stop offset="0%" stopColor="#f093fb" />
-                <stop offset="100%" stopColor="#f5576c" />
+                <stop offset="0%" stopColor="#059669" />
+                <stop offset="100%" stopColor="#065f46" />
               </linearGradient>
             </defs>
           </svg>

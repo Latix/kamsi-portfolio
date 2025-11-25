@@ -14,14 +14,14 @@ function Logo({ size = 40 }) {
       {/* Define gradients */}
       <defs>
         <linearGradient id="logoGradient1" x1="0%" y1="0%" x2="100%" y2="100%">
-          <stop offset="0%" stopColor="#667eea" />
-          <stop offset="50%" stopColor="#764ba2" />
-          <stop offset="100%" stopColor="#f093fb" />
+          <stop offset="0%" stopColor="#10b981" />
+          <stop offset="50%" stopColor="#047857" />
+          <stop offset="100%" stopColor="#34d399" />
         </linearGradient>
         
         <linearGradient id="logoGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
-          <stop offset="0%" stopColor="#4facfe" />
-          <stop offset="100%" stopColor="#00f2fe" />
+          <stop offset="0%" stopColor="#34d399" />
+          <stop offset="100%" stopColor="#10b981" />
         </linearGradient>
 
         <filter id="glow">
@@ -126,7 +126,7 @@ function Logo({ size = 40 }) {
         cx="50"
         cy="15"
         r="1.5"
-        fill="#4facfe"
+        fill="#34d399"
         animate={{
           cx: [50, 75, 50, 25, 50],
           cy: [15, 42.5, 70, 42.5, 15],
@@ -154,14 +154,14 @@ export function LogoStatic({ size = 40 }) {
     >
       <defs>
         <linearGradient id="logoGradientStatic1" x1="0%" y1="0%" x2="100%" y2="100%">
-          <stop offset="0%" stopColor="#667eea" />
-          <stop offset="50%" stopColor="#764ba2" />
-          <stop offset="100%" stopColor="#f093fb" />
+          <stop offset="0%" stopColor="#10b981" />
+          <stop offset="50%" stopColor="#047857" />
+          <stop offset="100%" stopColor="#34d399" />
         </linearGradient>
         
         <linearGradient id="logoGradientStatic2" x1="0%" y1="0%" x2="100%" y2="100%">
-          <stop offset="0%" stopColor="#4facfe" />
-          <stop offset="100%" stopColor="#00f2fe" />
+          <stop offset="0%" stopColor="#34d399" />
+          <stop offset="100%" stopColor="#10b981" />
         </linearGradient>
 
         <filter id="glowStatic">
@@ -214,7 +214,7 @@ export function LogoStatic({ size = 40 }) {
 
       <circle cx="50" cy="20" r="2" fill="url(#logoGradientStatic2)" />
       <circle cx="50" cy="70" r="2" fill="url(#logoGradientStatic2)" />
-      <circle cx="75" cy="42.5" r="1.5" fill="#4facfe" opacity="0.8" />
+      <circle cx="75" cy="42.5" r="1.5" fill="#34d399" opacity="0.8" />
     </svg>
   );
 }
