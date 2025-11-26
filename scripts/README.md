@@ -2,36 +2,47 @@
 
 ## OG Image Generator
 
-Automatically generates the Open Graph image (`og-image.jpg`) for social media sharing.
+Creates the Open Graph image (`og-image.jpg`) for social media sharing.
 
-### Usage
+### 🚀 Easy Method (Recommended)
+
+**Just open and click!**
 
 ```bash
-# Install dependencies first (only needed once)
-npm install
-
-# Generate the OG image
-npm run generate-og
+open scripts/download-og-image.html
 ```
 
-### What it does
+1. Page auto-generates the image
+2. Click **"Download as JPG"**
+3. Save as `og-image.jpg` in the `public/` folder
+4. Commit and push!
 
-- Creates a 1200x630px image with your portfolio branding
-- Uses your dark forest green theme
-- Includes your name, title, and key stats
-- Saves as `public/og-image.jpg` (optimized JPEG)
-- Runs automatically before `npm run build`
+**That's it!** No screenshots, no tools needed.
+
+### Alternative: Screenshot Method
+
+If you want to customize the design visually:
+
+```bash
+open scripts/create-og-image.html
+```
+
+Then take a screenshot at 1200x630px.
+
+### Why No Puppeteer?
+
+- Puppeteer is heavy (~300MB) and causes issues on Vercel
+- Canvas/screenshot is one-time and produces perfect quality
+- No build dependencies = faster deployments
+- Image only needs to be created once
 
 ### Customization
 
-Edit `scripts/generate-og-image.js` to modify:
+**Easy version:** Edit `scripts/download-og-image.html` JavaScript  
+**Visual version:** Edit `scripts/create-og-image.html` HTML/CSS
+
+Both files let you modify:
 - Text content (name, title, description)
-- Stats badges
+- Stats badges (years, projects, technologies)
 - Colors and styling
-- Image dimensions or quality
-
-### Requirements
-
-- Node.js 16+
-- Puppeteer (installed automatically with `npm install`)
 
