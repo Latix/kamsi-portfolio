@@ -26,7 +26,6 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "prebuild": "npm run generate-og",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "generate-og": "node scripts/generate-og-image.js"
